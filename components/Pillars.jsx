@@ -13,7 +13,7 @@ const Pillars = () => {
           </center>
           <div className="flex gap-[30px] w-full justify-center flex-col md:flex-row">
             {/* Card1 */}
-            <div className="flex flex-col items-center justify-center w-[100%] h-[300px] md:w-[320px] md:h-[400px] overflow-hidden bg-blue-100 rounded shadow-lg ">
+            <div className="flex flex-col items-center justify-center w-[100%] h-full md:w-[320px] md:h-[400px] overflow-hidden bg-blue-100 rounded shadow-lg ">
               <div className="px-6 py-4">
                 <div className="max-w-[100%] my-[10px]">
                   <div className="max-w-[100px] h-[100px] rounded-full border bg-blue-300 m-auto flex justify-center items-center">
@@ -27,7 +27,7 @@ const Pillars = () => {
               </div>
             </div>
             {/* Card 2 */}
-            <div className="flex flex-col items-center justify-center w-[100%] h-[300px] md:w-[320px] md:h-[400px] overflow-hidden bg-teal-100 rounded shadow-lg ">
+            <div className="flex flex-col items-center justify-center w-[100%] h-full md:w-[320px] md:h-[400px] overflow-hidden bg-teal-100 rounded shadow-lg ">
               <div className="px-6 py-4">
                 <div className="max-w-[100%] my-[10px]">
                   <div className="max-w-[100px] h-[100px] rounded-full border  bg-teal-300 m-auto flex justify-center items-center">
@@ -41,7 +41,7 @@ const Pillars = () => {
               </div>
             </div>
             {/* Card 3 */}
-            <div className="flex flex-col items-center justify-center w-[100%] h-[300px] md:w-[320px] md:h-[400px] overflow-hidden bg-red-100 rounded shadow-lg">
+            <div className="flex flex-col items-center justify-center w-[100%] h-full md:w-[320px] md:h-[400px] overflow-hidden bg-red-100 rounded shadow-lg">
               <div className="px-6 py-4">
                 <div className="max-w-[100%] my-[10px]">
                   <div className="max-w-[100px] h-[100px] rounded-full border  bg-red-300 m-auto flex justify-center items-center">
