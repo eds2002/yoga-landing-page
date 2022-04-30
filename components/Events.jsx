@@ -13,48 +13,48 @@ const Events = () => {
           <h1 className = "my-2 text-5xl font-bold ">Popular Packages</h1>
           <p className = "text-xl text-gray-500 ">See what most of our clients choose when they arrive!</p>
         </center>
-        <div class="max-w-xl bg-white rounded-lg  shadow-2xl mx-auto md:mx-0">
+        <div className="max-w-xl mx-auto bg-white rounded-lg shadow-2xl md:mx-0">
             <a href="#">
-                <Image class="rounded-t-lg" src={womenYoga} alt="image of one of our trainers doing yoga" />
+                <Image className="rounded-t-lg" src={womenYoga} alt="image of one of our trainers doing yoga" />
             </a>
-            <div class="p-5">
+            <div className="p-5">
                 <a href="#">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Therapeutic Yoga</h5>
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-black">Therapeutic Yoga</h5>
                 </a>
-                <p class="mb-3 font-normal text-gray-500 text-xl">Private Therapeutic Yoga Sessions with Jane Doe. Read on to learn more about Jane Doe.</p>
+                <p className="mb-3 text-xl font-normal text-gray-500">Private Therapeutic Yoga Sessions with Jane Doe. Read on to learn more about Jane Doe.</p>
                 <button type = "text" className = "px-10 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-600 active:bg-blue-700 my-[10px] flex items-center justify-center">
                   Book a session
-                  <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  <svg className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path></svg>
                 </button>
             </div>
         </div>
-        <div class="max-w-xl bg-white rounded-lg  shadow-2xl md:self-end mx-auto md:mx-0">
+        <div className="max-w-xl mx-auto bg-white rounded-lg shadow-2xl md:self-end md:mx-0">
             <a href="#">
-                <Image class="rounded-t-lg" src={massage} alt="image of a massage session" />
+                <Image className="rounded-t-lg" src={massage} alt="image of a massage session" />
             </a>
-            <div class="p-5">
+            <div className="p-5">
                 <a href="#">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">60 Minute Massage</h5>
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-black">60 Minute Massage</h5>
                 </a>
-                <p class="mb-3 font-normal text-gray-500 text-xl">Enjoy a 60 minute massage by our licensed massage therapist. A gentle and soothing massage intended to improve circulation, ease tension and create a heightened state of relaxation and promote your true state of inner well~being.</p>
+                <p className="mb-3 text-xl font-normal text-gray-500">Enjoy a 60 minute massage by our licensed massage therapist. A gentle and soothing massage intended to improve circulation, ease tension and create a heightened state of relaxation and promote your true state of inner well~being.</p>
                 <button type = "text" className = "px-10 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-600 active:bg-blue-700 my-[10px] flex items-center justify-center">
                   Book a session
-                  <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  <svg className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path></svg>
                 </button>
             </div>
         </div>
-        <div class="max-w-xl bg-white rounded-lg  shadow-2xl mx-auto md:mx-0">
+        <div className="max-w-xl mx-auto bg-white rounded-lg shadow-2xl md:mx-0">
             <a href="#">
-                <Image class="rounded-t-lg" src={reikiImg2} alt="Image of a reiki session" />
+                <Image className="rounded-t-lg" src={reikiImg2} alt="Image of a reiki session" />
             </a>
-            <div class="p-5">
+            <div className="p-5">
                 <a href="#">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-black">Spiritual & Holistic Healing</h5>
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-black">Spiritual & Holistic Healing</h5>
                 </a>
-                <p class="mb-3 font-normal text-gray-500 text-xl">A treatment feels like a wonderful glowing radiance that flows through and around you. Reiki treats the whole person including body, emotions, mind and spirit creating many beneficial effects that include relaxation and feelings of peace, security and well-being.</p>
+                <p className="mb-3 text-xl font-normal text-gray-500">A treatment feels like a wonderful glowing radiance that flows through and around you. Reiki treats the whole person including body, emotions, mind and spirit creating many beneficial effects that include relaxation and feelings of peace, security and well-being.</p>
                 <button type = "text" className = "px-10 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-600 active:bg-blue-700 my-[10px] flex items-center justify-center">
                   Book a session
-                  <svg class="ml-2 -mr-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  <svg className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path></svg>
                 </button>
             </div>
         </div>
