@@ -1,5 +1,5 @@
 import React from 'react'
-import { MdEmojiFoodBeverage } from 'react-icons/Md'
+import { MdEmojiFoodBeverage } from 'react-icons/md'
 import { GiEnergyBreath } from 'react-icons/gi'
 import { FaWalking } from 'react-icons/fa'
 
