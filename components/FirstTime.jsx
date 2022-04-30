@@ -1,6 +1,6 @@
 import React from 'react'
-
-import { GiTicket } from 'react-icons/gi'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTicket } from '@fortawesome/free-solid-svg-icons'
 // 59 130 246
 const FirstTime = () => {
   return (
@@ -9,7 +9,7 @@ const FirstTime = () => {
             <div className = "max-w-[1432px] w-full p-[50px] my-20">
                 <div className = "flex flex-col items-center justify-center w-full">
                     <div className="w-[200px] h-[200px] rounded-full bg-blue-100 flex items-center justify-center my-10">
-                        <h1 className = "text-blue-600 text-8xl"><GiTicket/></h1>
+                        <h1 className = "text-blue-600 text-8xl"><FontAwesomeIcon icon={faTicket} /></h1>
                     </div>
                     <h1 className = "text-3xl font-bold text-white">First time with us?</h1>
                     <p className = "text-xl text-gray-100 w-[400px] text-center my-2">Don&lsquo;t worry! We offer a complimentary yoga, reiki, massage session for 60 minutes.</p>

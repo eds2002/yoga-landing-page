@@ -1,7 +1,7 @@
 import React from 'react'
-import { MdEmojiFoodBeverage } from 'react-icons/md'
-import { GiEnergyBreath } from 'react-icons/gi'
-import { FaWalking } from 'react-icons/fa'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import { faPersonWalking , faWind, faAppleAlt} from '@fortawesome/free-solid-svg-icons'
 
 const Pillars = () => {
   return (
@@ -17,7 +17,7 @@ const Pillars = () => {
               <div className="px-6 py-4">
                 <div className="max-w-[100%] my-[10px]">
                   <div className="max-w-[100px] h-[100px] rounded-full border bg-blue-300 m-auto flex justify-center items-center">
-                    <h1 className = "text-5xl text-blue-600"><MdEmojiFoodBeverage/></h1>
+                    <h1 className = "text-5xl text-blue-600"><FontAwesomeIcon icon={faAppleAlt} /></h1>
                   </div>
                 </div>
                 <div className="mb-2 text-xl font-bold text-center">Nourish</div>
@@ -31,7 +31,7 @@ const Pillars = () => {
               <div className="px-6 py-4">
                 <div className="max-w-[100%] my-[10px]">
                   <div className="max-w-[100px] h-[100px] rounded-full border  bg-teal-300 m-auto flex justify-center items-center">
-                    <h1 className = "text-5xl text-teal-600"><GiEnergyBreath/></h1>
+                    <h1 className = "text-5xl text-teal-600"><FontAwesomeIcon icon={faWind} /></h1>
                   </div>
                 </div>
                 <div className="mb-2 text-xl font-bold text-center">Breath.</div>
@@ -45,7 +45,7 @@ const Pillars = () => {
               <div className="px-6 py-4">
                 <div className="max-w-[100%] my-[10px]">
                   <div className="max-w-[100px] h-[100px] rounded-full border  bg-red-300 m-auto flex justify-center items-center">
-                    <h1 className = "text-5xl text-red-600"><FaWalking/></h1>
+                    <h1 className = "text-5xl text-red-600"><FontAwesomeIcon icon={faPersonWalking} /></h1>
                   </div>
                 </div>
                 <div className="mb-2 text-xl font-bold text-center">Move.</div>
