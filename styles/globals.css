@@ -1,9 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x:hidden;
 }
 
 a {
@@ -13,4 +16,67 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.custom-shape-divider-top-1651330728 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1651330728 svg {
+  position: relative;
+  display: block;
+  width: calc(266% + 1.3px);
+  height: 69px;
+}
+
+.custom-shape-divider-top-1651330728 .shape-fill {
+  fill: #ffffff;
+}
+
+.custom-shape-divider-top-1651332208 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1651332208 svg {
+  position: relative;
+  display: block;
+  width: calc(127% + 1.3px);
+  height: 69px;
+}
+
+.custom-shape-divider-top-1651332208 .shape-fill {
+  fill: #ffffff;
+}
+
+
+
+/* First time bottom svg */
+.custom-shape-divider-bottom-1651332337 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1651332337 svg {
+  position: relative;
+  display: block;
+  width: calc(127% + 1.3px);
+  height: 69px;
+}
+
+.custom-shape-divider-bottom-1651332337 .shape-fill {
+  fill: #ffffff;
 }
