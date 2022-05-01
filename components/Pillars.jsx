@@ -44,7 +44,7 @@ const Pillars = () => {
                     <h1 className = "text-5xl text-teal-600"><FontAwesomeIcon icon={faWind} /></h1>
                   </div>
                 </div>
-                <div className="mb-2 text-xl font-bold text-center">Breath.</div>
+                <div className="mb-2 text-xl font-bold text-center">Breathe</div>
                 <p className="text-base text-center text-gray-700">
                 When you breathe through life&#39;s journey, you use your breath to keep us steady in the chaos of life and its inevitable unexpected turns.  Your breath connects you to the universe.
                 </p>
@@ -63,7 +63,7 @@ const Pillars = () => {
                     <h1 className = "text-5xl text-red-600"><FontAwesomeIcon icon={faPersonWalking} /></h1>
                   </div>
                 </div>
-                <div className="mb-2 text-xl font-bold text-center">Move.</div>
+                <div className="mb-2 text-xl font-bold text-center">Move</div>
                 <p className="text-base text-center text-gray-700">
                   When you allow your body to move and be fluid with the rhythm of life it creates the space for energy to flow, the strength to move forward and the balance to create a centered life.
                 </p>
