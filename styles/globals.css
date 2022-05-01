@@ -80,3 +80,24 @@ a {
 .custom-shape-divider-bottom-1651332337 .shape-fill {
   fill: #ffffff;
 }
+
+/* Footer waves */
+.custom-shape-divider-top-1651383061 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1651383061 svg {
+  position: relative;
+  display: block;
+  width: calc(101% + 1.3px);
+  height: 59px;
+}
+
+.custom-shape-divider-top-1651383061 .shape-fill {
+  fill: #FFFFFF;
+}

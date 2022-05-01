@@ -1,4 +1,4 @@
-import React from 'react'
+import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import { faPersonWalking , faWind, faAppleAlt} from '@fortawesome/free-solid-svg-icons'
@@ -13,7 +13,12 @@ const Pillars = () => {
           </center>
           <div className="flex gap-[30px] w-full justify-center flex-col md:flex-row">
             {/* Card1 */}
-            <div className="flex flex-col items-center justify-center w-[100%] h-full md:w-[320px] md:h-[400px] overflow-hidden bg-blue-100 rounded shadow-lg ">
+            <motion.div className="flex flex-col items-center justify-center w-[100%] h-full md:w-[320px] md:h-[400px] overflow-hidden bg-blue-100 rounded shadow-lg "
+              initial={{ opacity: 0, y:50 }}
+              whileInView={{ opacity: 1 , y:0 }}
+              viewport={{ once: true }}
+              transition = {{ ease: 'anticipate', duration: 1, delay : 0}}
+            >
               <div className="px-6 py-4">
                 <div className="max-w-[100%] my-[10px]">
                   <div className="max-w-[100px] h-[100px] rounded-full border bg-blue-300 m-auto flex justify-center items-center">
@@ -25,9 +30,14 @@ const Pillars = () => {
                   Nourish the body, inside and out, using natural organic food, supplements, essential oils, and beauty products, that are non toxic and will NOURISH the body, mind and soul.
                 </p>
               </div>
-            </div>
+            </motion.div>
             {/* Card 2 */}
-            <div className="flex flex-col items-center justify-center w-[100%] h-full md:w-[320px] md:h-[400px] overflow-hidden bg-teal-100 rounded shadow-lg ">
+            <motion.div className="flex flex-col items-center justify-center w-[100%] h-full md:w-[320px] md:h-[400px] overflow-hidden bg-teal-100 rounded shadow-lg "
+              initial={{ opacity: 0, y:50 }}
+              whileInView={{ opacity: 1 , y:0 }}
+              viewport={{ once: true }}
+              transition = {{ease: 'anticipate', duration : 1, delay: 0.25}}
+            >
               <div className="px-6 py-4">
                 <div className="max-w-[100%] my-[10px]">
                   <div className="max-w-[100px] h-[100px] rounded-full border  bg-teal-300 m-auto flex justify-center items-center">
@@ -39,9 +49,14 @@ const Pillars = () => {
                 When you breathe through life&#39;s journey, you use your breath to keep us steady in the chaos of life and its inevitable unexpected turns.  Your breath connects you to the universe.
                 </p>
               </div>
-            </div>
+            </motion.div>
             {/* Card 3 */}
-            <div className="flex flex-col items-center justify-center w-[100%] h-full md:w-[320px] md:h-[400px] overflow-hidden bg-red-100 rounded shadow-lg">
+            <motion.div className="flex flex-col items-center justify-center w-[100%] h-full md:w-[320px] md:h-[400px] overflow-hidden bg-red-100 rounded shadow-lg"
+              initial={{ opacity: 0, y:50 }}
+              whileInView={{ opacity: 1 , y:0 }}
+              viewport={{ once: true }}
+              transition = {{ease: 'anticipate', duration: 1, delay: 0.50}}
+            >
               <div className="px-6 py-4">
                 <div className="max-w-[100%] my-[10px]">
                   <div className="max-w-[100px] h-[100px] rounded-full border  bg-red-300 m-auto flex justify-center items-center">
@@ -53,7 +68,7 @@ const Pillars = () => {
                   When you allow your body to move and be fluid with the rhythm of life it creates the space for energy to flow, the strength to move forward and the balance to create a centered life.
                 </p>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

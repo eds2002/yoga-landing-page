@@ -4,6 +4,7 @@ import massage from '../assets/massage.jpg'
 import reikiImg from '../assets/reiki.jpg'
 import reikiImg2 from '../assets/reiki2.jpg'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 const Events = () => {
   return (
@@ -13,7 +14,13 @@ const Events = () => {
           <h1 className = "my-2 text-5xl font-bold ">Popular Packages</h1>
           <p className = "text-xl text-gray-500 ">See what most of our clients choose when they arrive!</p>
         </center>
-        <div className="max-w-xl mx-auto bg-white rounded-lg shadow-2xl md:mx-0">
+        {/* Card 1 */}
+        <motion.div className="max-w-xl mx-auto bg-white rounded-lg shadow-2xl md:mx-0"
+          initial={{ opacity: 0, x:-100 }}
+          whileInView={{ opacity: 1 , x:0 }}
+          viewport={{ once: true }}
+          transition = {{ ease: 'anticipate', duration: 1, delay : 0}}
+        >
             <a href="#">
                 <Image className="rounded-t-lg" src={womenYoga} alt="image of one of our trainers doing yoga" />
             </a>
@@ -27,8 +34,14 @@ const Events = () => {
                   <svg className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path></svg>
                 </button>
             </div>
-        </div>
-        <div className="max-w-xl mx-auto bg-white rounded-lg shadow-2xl md:self-end md:mx-0">
+        </motion.div>
+        {/* Card 2 */}
+        <motion.div className="max-w-xl mx-auto bg-white rounded-lg shadow-2xl md:self-end md:mx-0"
+          initial={{ opacity: 0, x:100 }}
+          whileInView={{ opacity: 1 , x:0 }}
+          viewport={{ once: true }}
+          transition = {{ ease: 'anticipate', duration: 1, delay : 0.25}}
+        >
             <a href="#">
                 <Image className="rounded-t-lg" src={massage} alt="image of a massage session" />
             </a>
@@ -42,8 +55,14 @@ const Events = () => {
                   <svg className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path></svg>
                 </button>
             </div>
-        </div>
-        <div className="max-w-xl mx-auto bg-white rounded-lg shadow-2xl md:mx-0">
+        </motion.div>
+        {/* Card 3 */}
+        <motion.div className="max-w-xl mx-auto bg-white rounded-lg shadow-2xl md:mx-0"
+          initial={{ opacity: 0, x:-100 }}
+          whileInView={{ opacity: 1 , x:0 }}
+          viewport={{ once: true }}
+          transition = {{ ease: 'anticipate', duration: 1, delay : 0.50}}
+        >
             <a href="#">
                 <Image className="rounded-t-lg" src={reikiImg2} alt="Image of a reiki session" />
             </a>
@@ -57,7 +76,7 @@ const Events = () => {
                   <svg className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"></path></svg>
                 </button>
             </div>
-        </div>
+        </motion.div>
       </div>
     </div>
   )
