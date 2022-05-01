@@ -6,7 +6,7 @@ const Newsletter = () => {
   return (
     <>
       <section className = "w-[100vw] h-full flex justify-center relative">
-        <div className = "max-w-[1432px] w-full p-[50px] my-20 flex items-center justify-center">
+        <div className = "max-w-[1432px] w-full p-[25px] my-20 flex items-center justify-center">
           <div className = "w-[50%] h-full p-[50px] hidden md:block">
             <Image src = {NewsletterImg} className = "scale-75" alt = "image of mailbox"></Image>
           </div>

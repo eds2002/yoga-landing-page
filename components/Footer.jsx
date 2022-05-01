@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <>
 			<section className = "w-[100vw] h-full flex justify-center relative bg-blue-900">
-				<div className = "max-w-[1432px] w-full px-[50px] py-[100px]">
+				<div className = "max-w-[1432px] w-full px-[25px] py-[100px]">
 					<div className = "flex flex-col items-start justify-between gap-20 md:flex-row md:gap-0">
 						<div className = "flex flex-col items-start justify-start">
 							<h2 className = "text-2xl font-bold text-white">Yoga.us</h2>

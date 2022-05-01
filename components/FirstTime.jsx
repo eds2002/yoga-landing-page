@@ -6,7 +6,7 @@ const FirstTime = () => {
   return (
     <>
         <section className = "w-[100vw] h-full bg-blue-500 flex justify-center relative">
-            <div className = "max-w-[1432px] w-full p-[50px] my-20">
+            <div className = "max-w-[1432px] w-full p-[25px] my-20">
                 <div className = "flex flex-col items-center justify-center w-full">
                     <div className="w-[200px] h-[200px] rounded-full bg-blue-100 flex items-center justify-center my-10">
                         <h1 className = "text-blue-600 text-8xl"><FontAwesomeIcon icon={faTicket} /></h1>

@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (  
     <div className = "vw-[100vw]">
-      <div className = "max-w-[1432px] w-full mx-auto px-[50px]">
+      <div className = "max-w-[1432px] w-full mx-auto px-[25px]">
         <header className = "flex w-[100%] justify-between h-[75px] items-center">
           <h1 className = "text-3xl font-bold text-blue-500">yoga.com</h1>
           <nav className = "hidden md:block">

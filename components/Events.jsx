@@ -9,7 +9,7 @@ import { motion } from 'framer-motion'
 const Events = () => {
   return (
     <div className = "w-[100vw] h-[100%] flex items-center justify-center">    
-      <div className = "max-w-[1432px] w-full flex flex-col gap-[50px] md:gap-10 -mt-12 my-[100px] px-[50px] ">
+      <div className = "max-w-[1432px] w-full flex flex-col gap-[50px] md:gap-10 -mt-12 my-[100px] px-[25px] ">
         <center>
           <h1 className = "my-2 text-5xl font-bold ">Popular Packages</h1>
           <p className = "text-xl text-gray-500 ">See what most of our clients choose when they arrive!</p>

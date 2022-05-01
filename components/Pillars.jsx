@@ -7,7 +7,7 @@ const Pillars = () => {
   return (
     <div className = "relative">
       <div className = "w-[100vw] p-[25px] flex justify-center my-[150px] bg-gray-50 relative" >
-        <div className = "max-w-[1432px] w-full px-[50px] pb-10 ">  
+        <div className = "max-w-[1432px] w-full px-[25px] pb-10 ">  
           <center>
             <h1 className = "my-10 text-3xl font-bold">Yoga Fundamentals</h1>
           </center>
